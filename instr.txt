@@ -1,0 +1,37 @@
+Here are **10 questions** you should ask after seeing this dataset, along with hints on how to approach them using **Exploratory Data Analysis (EDA):**
+
+---
+
+### **1. What is the trend of cargo metric tons over time?**  
+   📌 *Hint:* Group by `Activity Period`, plot a time series using `plt.plot()` or `sns.lineplot()`.  
+
+### **2. Which airline has handled the most cargo metric tons overall?**  
+   📌 *Hint:* Group by `Operating Airline`, sum `Cargo Metric TONS`, and sort descending.  
+
+### **3. What is the distribution of cargo types (Express, Mail, Cargo)?**  
+   📌 *Hint:* Use `value_counts()` on `Cargo Type Code`, then visualize with `sns.barplot()`.  
+
+### **4. How does cargo volume differ between domestic and international flights?**  
+   📌 *Hint:* Group by `GEO Summary`, sum `Cargo Metric TONS`, then use a bar chart.  
+
+### **5. Which regions contribute the most to cargo transport?**  
+   📌 *Hint:* Group by `GEO Region`, sum `Cargo Metric TONS`, and visualize with a pie chart.  
+
+### **6. What are the top 5 busiest months/years for cargo transport?**  
+   📌 *Hint:* Extract year and month from `Activity Period`, group by them, and plot trends.  
+
+### **7. What is the relationship between cargo type and cargo metric tons?**  
+   📌 *Hint:* Use `sns.boxplot()` to compare `Cargo Metric TONS` across different `Cargo Type Code` values.  
+
+### **8. Do different airlines specialize in certain types of cargo?**  
+   📌 *Hint:* Create a pivot table with `Operating Airline` vs. `Cargo Type Code`, summing `Cargo Metric TONS`.  
+
+### **9. Are there seasonal variations in cargo transport?**  
+   📌 *Hint:* Extract month from `Activity Period`, group by month, and plot a line chart to observe trends.  
+
+### **10. What are the top airlines for each cargo type?**  
+   📌 *Hint:* Group by `Operating Airline` and `Cargo Type Code`, then sort by `Cargo Metric TONS`.  
+
+---
+
+These questions will help you **uncover insights** using EDA. Let me know if you need help with implementation! 🚀
