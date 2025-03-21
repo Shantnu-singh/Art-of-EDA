@@ -1,0 +1,65 @@
+### **20 Questions You Can Answer Using EDA and Visualization**  
+
+#### **1️⃣ What is the gender distribution of passengers?**  
+**Hint:** Use a **bar chart** to visualize the count of Male vs. Female passengers.  
+
+#### **2️⃣ What is the age distribution of passengers?**  
+**Hint:** A **histogram** can help analyze the age spread and detect if certain age groups travel more.  
+
+#### **3️⃣ Which nationalities travel the most?**  
+**Hint:** A **bar chart** of nationality counts will reveal the most frequent travelers.  
+
+#### **4️⃣ What are the top 10 busiest airports based on departures?**  
+**Hint:** Group by `Airport Name` and visualize using a **bar chart**.  
+
+#### **5️⃣ Which airport countries have the highest number of flights?**  
+**Hint:** Aggregate flights per `Airport Country Code` and use a **map visualization**.  
+
+#### **6️⃣ What is the proportion of flights by continent?**  
+**Hint:** Use a **pie chart** to show the distribution of flights across `Airport Continent`.  
+
+#### **7️⃣ How does passenger age vary across continents?**  
+**Hint:** Use a **box plot** to compare the distribution of passenger ages for each continent.  
+
+#### **8️⃣ What are the most common flight statuses?**  
+**Hint:** Count `Flight Status` occurrences and visualize with a **bar chart**.  
+
+#### **9️⃣ Do certain airports have higher cancellation rates?**  
+**Hint:** Calculate the **cancellation percentage** per `Airport Name` and sort by highest cancellation rate.  
+
+#### **🔟 What is the average age of passengers for each flight status?**  
+**Hint:** Use a **grouped bar chart** or **box plot** to compare age distributions for "On Time", "Cancelled", etc.  
+
+#### **1️⃣1️⃣ Which months had the highest number of flights?**  
+**Hint:** Extract months from `Departure Date` and visualize using a **line plot**.  
+
+#### **1️⃣2️⃣ Are older passengers more likely to have cancelled flights?**  
+**Hint:** Compare age distributions between "Cancelled" vs. "On Time" flights using a **box plot**.  
+
+#### **1️⃣3️⃣ Which pilots have operated the most flights?**  
+**Hint:** Group by `Pilot Name` and visualize the count using a **bar chart**.  
+
+#### **1️⃣4️⃣ Are certain continents more prone to delays?**  
+**Hint:** Compare the proportion of "Delayed" flights across `Continents`.  
+
+#### **1️⃣5️⃣ Which nationality experiences the most cancelled flights?**  
+**Hint:** Find the `Nationality` with the highest number of "Cancelled" statuses.  
+
+#### **1️⃣6️⃣ How does flight status vary by country?**  
+**Hint:** Use a **stacked bar chart** to show the proportion of "On Time", "Cancelled", and "Delayed" flights per country.  
+
+#### **1️⃣7️⃣ Is there a relationship between nationality and flight status?**  
+**Hint:** A **heatmap** showing the frequency of each `Nationality` and `Flight Status` can help find patterns.  
+
+#### **1️⃣8️⃣ Which age group has the most on-time flights?**  
+**Hint:** Categorize `Age` into bins (e.g., 0-18, 19-35, 36-60, 60+) and compare "On Time" rates using a **bar chart**.  
+
+#### **1️⃣9️⃣ Which airports serve the most international passengers?**  
+**Hint:** Count unique `Nationality` values per `Airport Name` to identify diverse airports.  
+
+#### **2️⃣0️⃣ Are younger passengers more likely to fly internationally?**  
+**Hint:** Compare `Age` distributions for international vs. domestic travelers using a **box plot**.  
+
+---
+
+Would you like more details on how to implement any of these analyses? 😊
