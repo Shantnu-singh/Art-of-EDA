@@ -24,7 +24,7 @@
 #### **8️⃣ What are the most common flight statuses?**  
 **Hint:** Count `Flight Status` occurrences and visualize with a **bar chart**.  
 
-#### **9️⃣ Do certain airports have higher cancellation rates?**  
+#### **9️⃣ Do certain airports have higher cancellation rates?**  ---> Do Again (Wrong this time)
 **Hint:** Calculate the **cancellation percentage** per `Airport Name` and sort by highest cancellation rate.  
 
 #### **🔟 What is the average age of passengers for each flight status?**  
